@@ -1,1 +1,1 @@
-sudo pacman -S rofi compton mpd xpdf ranger ncmpcpp rxvt-unicode guake xterm gnome-calculator chromium pulseaudio
+sudo pacman -S rofi compton mpd xpdf ranger ncmpcpp rxvt-unicode guake xterm gnome-calculator chromium pulseaudio nitrogen
