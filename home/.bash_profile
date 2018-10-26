@@ -7,4 +7,4 @@ pactl set-sink-volume 0 36%
 # ps ax | grep -q 'dropbox[d]' || ~/.dropbox-dist/dropboxd &
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-
+xset r rate 200 25

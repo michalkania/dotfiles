@@ -11,7 +11,7 @@
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
 complete -cf sudo
-#xset r rate 200 25
+# xset r rate 200 25
 #xinput set-prop 13 287 1 1 1 1 1 1 1
 alias ls='ls --color=auto'
 alias ip='ip -c'
