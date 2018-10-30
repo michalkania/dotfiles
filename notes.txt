@@ -1,0 +1,3 @@
+! Make laptop's screen even dimmer.
+
+> echo 50 > /sys/class/backlight/intel_backlight/brightness
