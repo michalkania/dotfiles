@@ -1,5 +1,7 @@
 ! URxvt
-URxvt.font: xft:Hack:size=9, xft:Awesome:size=9
+! URxvt.transparent: true
+! URxvt.shading: 15
+URxvt.font: xft:Hack:size=9
 URxvt.scrollBar: false
 URxvt.letterSpace: -1
 !! Borders
@@ -7,8 +9,8 @@ URxvtURxvtexternalBorder: 0
 URxvtURxvtinternalBorder: 0
 URxvtURxvtborderLess: false
 ! Transparency
-URxvt.transparent: false
-URxvt.shading: 8
+URxvt.transparent: true
+URxvt.shading: 50
 URxvt.perl-ext-common: default,matcher,url-select,keyboard-select,clipboard,font-size
 URxvt.colorURL: $808050
 !! url-select:
@@ -22,8 +24,8 @@ URxvt.url-launcher:	/usr/bin/xdg-open
 URxvt.matcher.button:	1
 
 ! special
-URxvt.foreground:   #bbaa99
-URxvt.background:   #050902
+URxvt.foreground:   #908570
+URxvt.background:   #171513
 URxvt.cursorColor:  #746c48
 
 ! black
@@ -58,20 +60,3 @@ URxvt.color14:      #778725
 URxvt.color7:       #c8b55b
 URxvt.color15:      #e4dc8c
 
-! ROFI configuration
-rofi.lines: 6
-rofi.eh: 1
-rofi.padding: 10
-rofi.fullscreen: false
-rofi.bw: 1
-rofi.width: 25
-rofi.separator-style: solid
-rofi.hide-scrollbar: true
-
-!                  'background', 'border', 'separator'
-rofi.color-window: argb:99121110, #908570, #908570
-! State:           'bg',     'fg',     'bgalt',  'hlbg',   'hlfg'
-rofi.color-normal: argb:75121110, #908570, argb:03aa964c, argb:03544b2e, #e4dc8c
-rofi.color-urgent: argb:75121110, #908570, argb:bc377872, argb:03544b2e, #e4dc8c
-rofi.color-active: argb:75121110, #908570, argb:03aa964c, argb:03544b2e, #e4dc8c
-rofi.font: Hack Cantarell 11
